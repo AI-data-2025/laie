@@ -1,0 +1,14 @@
+# Word documents (keep the original CV private if needed)
+# CV_Sato.docx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
