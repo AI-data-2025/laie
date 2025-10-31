@@ -338,6 +338,25 @@ section h2 {
     background-color: white;
 }
 
+/* Research Overview Image */
+.research-overview {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.research-overview-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.research-overview-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
 .publication-item {
     display: flex;
     gap: 1rem;
@@ -495,6 +514,14 @@ footer p {
     .education-content,
     .stats-grid {
         grid-template-columns: 1fr;
+    }
+
+    .research-overview {
+        margin-bottom: 2rem;
+    }
+
+    .research-overview-image {
+        border-radius: 5px;
     }
 }
 
