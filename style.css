@@ -357,6 +357,19 @@ section h2 {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* Publications Section Title */
+.publications-section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #1e3a8a;
+    border-bottom: 3px solid #3b82f6;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
 .publication-item {
     display: flex;
     gap: 1rem;
